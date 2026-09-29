@@ -1,35 +1,25 @@
-RANGTAARI BY SAKSHI — FULL WEBSITE
+RANGTAARI BY SAKSHI — V2 VISUAL WEBSITE
+==============================================
 
-This is a custom static website built for Rangtaari by Sakshi.
+This version is a visual-first redesign using the actual product photographs supplied for the redesign.
 
 FILES
-index.html
-styles.css
-script.js
+- index.html
+- styles.css
+- script.js
+- images/ (10 product photos)
 
-WHAT IS ALREADY INCLUDED
-- Rajasthan-inspired visual identity
-- Responsive mobile/desktop layout
-- Hero story section
-- Shop by mood collections
-- Product catalogue placeholders
-- Cart using browser localStorage
-- WhatsApp ordering
-- Razorpay hosted-checkout placeholder
-- Founder/brand story
-- Instagram section and direct profile links
-- Shipping/contact/trust sections
-- No Shopify
+IMPORTANT BEFORE LAUNCH
+1. Open script.js and replace WHATSAPP_NUMBER with the actual business WhatsApp number.
+2. Review product names/prices in index.html before publishing.
+3. The displayed prices are starter/sample values based on the information supplied earlier; verify them against your final catalogue.
+4. The site currently uses WhatsApp ordering. Do NOT put Razorpay secret keys in this static website.
+5. After the site looks right, connect rangtari.com in GitHub Pages and then set up a hosted Razorpay Payment Page/Link if desired.
 
-IMPORTANT
-1. In script.js change WHATSAPP_NUMBER.
-2. Add your Razorpay hosted Payment Page/Payment Link to RAZORPAY_PAYMENT_URL.
-3. Replace PRODUCTS with your final products and prices.
-4. Replace the "YOUR PRODUCT PHOTO" placeholders with your actual product images.
-5. Instagram: Instagram does not offer a simple public setting that automatically displays your entire profile feed on a static site. For actual Reel tiles, use Instagram's official individual post embed code or a feed widget after you choose one. The site is already structured for that.
+GITHUB PAGES
+Upload/replace the files in your existing rangtaari-website repository. Keep index.html, styles.css and script.js in the repository root and keep the images folder intact.
 
-HOSTING
-GitHub Pages can host this static site at no monthly hosting cost on GitHub Free and supports custom domains. Connect rangtari.com after publishing.
-
-PAYMENTS
-Never put Razorpay secret/API keys in the website. Use a hosted checkout/payment page or link.
+BRAND
+Rangtaari by Sakshi
+Rajasthan ke Rang, Rangtaari ke Sang
+Instagram: @rangtaaribysakshi
