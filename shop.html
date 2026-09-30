@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop | Rangtaari by Sakshi</title>
+<meta name="description" content="Shop Rangtaari by Sakshi's Jaipur-inspired home linen, bath and bags collection.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar">RAJASTHAN KE RANG • RANGTAARI KE SANG</div>
+<header class="site-header">
+  <button class="hamburger" id="menuBtn" aria-label="Open menu">☰</button>
+  <a class="logo" href="index.html">RANGTAARI <span>by Sakshi</span></a>
+  <a class="cart-link" href="cart.html">CART <b id="cartCount">0</b></a>
+</header>
+<nav class="drawer" id="drawer">
+  <button class="close" id="closeBtn">×</button>
+  <a href="index.html">Home</a><a href="shop.html">Shop All</a>
+  <a href="shop.html?cat=Bedsheets%20%26%20Home">Bedsheets & Home</a>
+  <a href="shop.html?cat=Bathrobes">Bathrobes</a>
+  <a href="shop.html?cat=Bags%20%26%20Pouches">Bags & Pouches</a>
+  <a href="shop.html?cat=Kids%20%26%20Utility">Kids & Utility</a>
+</nav><div class="overlay" id="overlay"></div>
+
+<main class="shop-page">
+  <div class="shop-intro">
+    <p class="eyebrow">RANGTAARI COLLECTION</p>
+    <h1>Pick your print.</h1>
+    <p>Compact tiles. More colour. More choice. No giant photographs taking over the page.</p>
+  </div>
+  <div class="filters" id="filters">
+    <button data-filter="All" class="active">ALL</button>
+    <button data-filter="Bedsheets & Home">BEDSHEETS & HOME</button>
+    <button data-filter="Bathrobes">BATHROBES</button>
+    <button data-filter="Bags & Pouches">BAGS & POUCHES</button>
+    <button data-filter="Kids & Utility">KIDS & UTILITY</button>
+  </div>
+  <div class="product-grid shop-grid" id="shopGrid"></div>
+</main>
+<footer><div class="footer-logo">RANGTAARI <span>by Sakshi</span></div><p>Rajasthan ke Rang Rangtaari ke Sang</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
