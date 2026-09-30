@@ -89,3 +89,33 @@ footer{background:var(--ink);color:white;padding:60px 6% 25px;display:grid;grid-
     font-size: 17px;
   }
 }
+/* Rangtaari menu positioning + close button */
+
+.site-header {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  order: -1;
+  margin-left: 0 !important;
+  margin-right: 18px !important;
+}
+
+/* Close button inside left menu */
+.menu-close {
+  position: absolute;
+  top: 25px;
+  right: 22px;
+  border: 0;
+  background: transparent;
+  color: #2c231d;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-close:hover {
+  opacity: 0.65;
+}
